@@ -29,8 +29,8 @@ I am an Information Security professional focused on network security, incident 
 Outside of security, I am an enthusiast of horror movies, classic comic books, video gaming, and LEGO building.
 
 ## 🔗 Connect
-* **LinkedIn**: linkedin.com/in/scottrenny
-* **Email**: scottrenny@gmail.com
+* **LinkedIn**: [linkedin.com/in/scottrenny](https://www.linkedin.com/in/scottrenny)
+* **Email**: [scottrenny@gmail.com](mailto:scottrenny@gmail.com)
 
 <!--
 **scott-renny/scott-renny** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
