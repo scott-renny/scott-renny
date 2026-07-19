@@ -1,48 +1,232 @@
 # Scott Renny
 
-## Aspiring Security Engineer & Auditor
-I am an Information Security professional focused on network security, incident response, and data analysis. I bridge the gap between complex analytical insights and operational efficiency, leveraging hands-on experience in building secure, self-hosted infrastructure. I am currently honing my expertise with a keen interest in moving into Security Engineering and Security Auditing roles, where I can apply my skills in system hardening and vulnerability management.
+> ### Aspiring SOC Analyst | CompTIA Security+ Certified | Enterprise Homelab Engineer
+>
+> **Learning by Building • Driven by Continuous Learning • Documenting Every Decision**
 
-## Professional Development
-* **Certifications & Goals**:
-    * Completed the **Amazon Information Security Analyst Cohort 11** at Correlation One with Honors, achieving a 96% average.
-    * Currently preparing for the **AWS Certified AI Practitioner** exam, with a target completion date of August 2026.
-    * Completed training and certification processes for **CompTIA Security+**.
-* **Infrastructure & Security Projects**:
-    * Experienced in **Wazuh** and **Pi-hole** deployment via Docker containers for network-wide threat detection and ad blocking.
-    * Actively experimenting with **VLAN segmentation**, **WireGuard VPN** configuration, and **OSINT** research methodologies.
+---
 
-## 🛠 Tech Stack & Skills
-* **Security & Networking**: IDS/IPS, Network Security Architecture, Vulnerability Management, VPN configuration, VLAN segmentation.
-* **Tools & Platforms**: AWS, Wireshark, Docker, Ubuntu Server, Wazuh, Pi-hole.
-* **Core Competencies**: Data Analysis, Incident Response, Root Cause Analysis, Project Management.
+## 👋 Welcome
 
-## 💻 Featured Projects
-* **homesoc**: A live, ongoing build log of a self-hosted SOC stack using real hardware and incident documentation.
-* **netwatch**: Real-time network visibility for a home SOC lab, utilizing Python Flask, nmap, and Wazuh.
-* **home-lab-network-security**: A fully wireless, software-defined network security lab built on a locked ISP router, featuring segmenting, IPS enforcement, and VPN tunneling.
-* **secplus-trainer**: A custom study suite I developed to support my CompTIA Security+ certification, featuring mock exams and a readiness dashboard.
-* **pi-hole-dns-lab**: A network-level DNS sinkhole deployment via Docker and router DHCP.
-* **backup-lab**: An enterprise-style 3-2-1 backup strategy implementation on Ubuntu Server.
+Welcome to my GitHub!
 
-## Personal Interests
-Outside of security, I am an enthusiast of horror movies, classic comic books, video gaming, and LEGO building.
+I'm an aspiring SOC Analyst with a passion for cybersecurity, enterprise infrastructure, automation, and continuous learning. I believe the best way to develop technical skills is through designing, building, documenting, validating, and improving real-world systems.
 
-## 🔗 Connect
-* **LinkedIn**: [linkedin.com/in/scottrenny](https://www.linkedin.com/in/scottrenny)
-* **Email**: [scottrenny@gmail.com](mailto:scottrenny@gmail.com)
+Rather than treating my GitHub as a collection of unrelated repositories, I'm building a connected engineering portfolio that documents my journey into cybersecurity through hands-on experience.
 
-<!--
-**scott-renny/scott-renny** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Every project is designed to demonstrate not only technical knowledge, but also engineering discipline, documentation standards, troubleshooting methodology, and continuous improvement.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# 🏆 Professional Highlights
+
+- 🛡️ CompTIA Security+ Certified
+- 🎓 Amazon Information Security Analyst Program (Correlation One)
+  - Graduated **with Honors**
+  - **96% Final Average**
+- ☁️ Currently studying for the AWS Certified AI Practitioner
+- 🎯 Seeking an entry-level SOC Analyst opportunity
+
+---
+
+# 🎯 Career Objective
+
+My goal is to begin my cybersecurity career as a Junior SOC Analyst where I can contribute to Security Operations while continuing to grow my skills in:
+
+- Security Monitoring
+- Incident Response
+- Log Analysis
+- Linux Administration
+- Windows Administration
+- Networking
+- Infrastructure Engineering
+- Automation
+- Cloud Security
+- Technical Documentation
+
+I believe strong documentation, continuous learning, and hands-on experience are the foundation of becoming an effective cybersecurity professional.
+
+---
+
+# 🧭 Engineering Philosophy
+
+Every repository follows the same principles:
+
+- 📚 Continuous Learning
+- 📖 Documentation First
+- 🔒 Security by Design
+- 🛡️ Defense in Depth
+- 🌐 Zero Trust
+- 🔑 Least Privilege
+- 🤖 Automate Repetitive Tasks
+- ✅ Validate Before Deployment
+- 📈 Continuous Improvement
+
+---
+
+# 🚀 Flagship Engineering Program
+
+## Cyber Operations Center Engineering Program
+
+The Cyber Operations Center Engineering Program (COC) is the flagship project of my GitHub portfolio.
+
+Rather than being a single lab, the COC is a long-term engineering program documenting the complete process of designing, building, securing, operating, documenting, validating, and continuously improving an enterprise-inspired Cyber Operations Center.
+
+The program is organized into **26 structured phases**, each covering a major aspect of planning, implementation, operations, testing, and continuous improvement.
+
+Throughout the program I document:
+
+- Design decisions
+- Architecture
+- Implementation
+- Validation
+- Troubleshooting
+- Lessons Learned
+- Future Improvements
+
+The goal is to demonstrate how a production-inspired cybersecurity environment can be engineered from the ground up while documenting every step of the journey.
+
+---
+
+# 🏗 Companion Engineering Programs
+
+Alongside the COC are several focused engineering programs that document major areas of the overall environment.
+
+## 🏛 Project Atlas
+
+Enterprise Infrastructure Engineering
+
+Focused on servers, networking, storage, Docker, virtualization, backups, monitoring, and the infrastructure supporting the Cyber Operations Center.
+
+---
+
+## 🐉 Project Hydra
+
+Security Operations Engineering
+
+Documents the design and evolution of my multi-monitor SOC workstation including workflows, monitoring, investigations, productivity, automation, and analyst operations.
+
+---
+
+## 🏔 Project Olympus
+
+Physical Infrastructure Engineering
+
+Documents the complete physical construction of my Cyber Operations Center including the workspace, desk build, monitor layout, hardware installation, cable management, equipment placement, upgrades, and engineering decisions.
+
+---
+
+## 🔥 Project Hestia
+
+Media Infrastructure Engineering
+
+A self-hosted media platform demonstrating Linux administration, Docker, networking, storage management, automation, monitoring, and backup strategies.
+
+---
+
+# 📚 Legacy Project Archive
+
+Learning never starts with perfection.
+
+The Legacy Project Archive preserves earlier labs and projects that no longer reflect my current engineering standards but remain valuable as part of my learning journey.
+
+Rather than deleting previous work, I keep it available to demonstrate continuous improvement and document how my skills have evolved over time.
+
+---
+
+# 💻 Technical Skills
+
+## Operating Systems
+
+- Windows
+- Ubuntu Server
+- Linux Administration
+
+## Infrastructure
+
+- Docker
+- Virtualization
+- WireGuard
+- Pi-hole
+- Wazuh
+
+## Networking
+
+- TCP/IP
+- DNS
+- DHCP
+- VPNs
+- Firewall Fundamentals
+- VLAN Fundamentals
+
+## Security
+
+- Security Operations Fundamentals
+- Log Analysis
+- Security Hardening
+- Incident Response Fundamentals
+- Vulnerability Management Fundamentals
+
+## Development
+
+- Git
+- GitHub
+- Python
+- Bash
+- PowerShell
+- HTML
+- CSS
+- JavaScript
+
+---
+
+# 📖 Currently Learning
+
+I believe cybersecurity requires continuous growth.
+
+Current areas of study include:
+
+- AWS Certified AI Practitioner
+- Microsoft Sentinel
+- Splunk
+- Active Directory
+- Detection Engineering
+- Digital Forensics & Incident Response (DFIR)
+- Infrastructure Automation
+- Threat Detection Engineering
+
+---
+
+# 🌱 Why This Portfolio Exists
+
+This portfolio documents my transition into cybersecurity through structured, hands-on engineering.
+
+Rather than showcasing only completed projects, I document the entire process—from planning and implementation to troubleshooting, validation, and continuous improvement.
+
+My goal is to demonstrate not only technical ability but also the engineering mindset, discipline, documentation practices, and curiosity expected of a cybersecurity professional.
+
+---
+
+# 🎮 Beyond Cybersecurity
+
+Outside of technology, I enjoy:
+
+- Horror movies
+- Comic books
+- LEGO
+- Gaming
+- Building homelab projects
+- Learning new technologies
+
+---
+
+# 🤝 Let's Connect
+
+I'm always interested in connecting with other cybersecurity professionals, homelab enthusiasts, and lifelong learners.
+
+- 💼 LinkedIn
+- 📧 Email
+
+---
+
+> **"Every expert was once a beginner. Every secure environment begins with one well-documented decision."**
