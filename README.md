@@ -92,11 +92,19 @@ The goal is to demonstrate how a production-inspired cybersecurity environment c
 
 Alongside the COC are several focused engineering programs that document major areas of the overall environment.
 
-## 🏛 Project Atlas
+## 💻 [Project Hermes](https://github.com/scott-renny/project-hermes)
 
-Enterprise Infrastructure Engineering
+Windows Workstation Automation
 
-Focused on servers, networking, storage, Docker, virtualization, backups, monitoring, and the infrastructure supporting the Cyber Operations Center.
+A modular PowerShell framework for configuring, validating, backing up, and restoring a repeatable Windows engineering workstation.
+
+---
+
+## 🏛 [Project Atlas](https://github.com/scott-renny/project-atlas)
+
+Hardware Restoration and Server Upgrade
+
+Documents the restoration and modernization of a Dell Latitude E7250 repurposed as a dependable Ubuntu infrastructure server.
 
 ---
 
