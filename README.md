@@ -1,249 +1,130 @@
 # Scott Renny
 
-> ### Aspiring SOC Analyst | CompTIA Security+ Certified | Enterprise Homelab Engineer
->
-> **Learning by Building • Driven by Continuous Learning • Documenting Every Decision**
+### Security+ Certified | Cybersecurity & Infrastructure Engineering | Aspiring SOC Analyst
+
+I build, secure, validate, and document real systems in a continuously evolving home Cyber Operations Center.
+
+My portfolio focuses on the work behind dependable security operations: hardened infrastructure, network visibility, DNS policy, security monitoring, backup and recovery, automation, and clear operational documentation.
+
+[![Security+](https://img.shields.io/badge/CompTIA-Security%2B-red)](https://www.comptia.org/certifications/security)
+![COC Progress](https://img.shields.io/badge/COC-Phases%200--6%20Complete-success)
+![Current Milestone](https://img.shields.io/badge/Next-Phase%207%20Telemetry-blue)
+![Focus](https://img.shields.io/badge/Focus-Security%20Operations-005571)
 
 ---
 
-## 👋 Welcome
+## What I bring
 
-Welcome to my GitHub!
+- **Security operations mindset:** monitoring, alert analysis, hardening, validation, recovery, and continuous improvement
+- **Infrastructure experience:** Ubuntu Server, Windows, Docker, systemd, Caddy, networking, VPNs, DNS, and firewalls
+- **Automation and development:** Python, PowerShell, Bash, REST APIs, HTML, CSS, JavaScript, Git, and GitHub
+- **Engineering discipline:** architecture records, risk management, evidence handling, change control, troubleshooting, and recovery testing
+- **Clear documentation:** every major project explains what was built, why decisions were made, how it was tested, and what remains to improve
 
-I'm an aspiring SOC Analyst with a passion for cybersecurity, enterprise infrastructure, automation, and continuous learning. I believe the best way to develop technical skills is through designing, building, documenting, validating, and improving real-world systems.
+## Professional highlights
 
-Rather than treating my GitHub as a collection of unrelated repositories, I'm building a connected engineering portfolio that documents my journey into cybersecurity through hands-on experience.
-
-Every project is designed to demonstrate not only technical knowledge, but also engineering discipline, documentation standards, troubleshooting methodology, and continuous improvement.
-
----
-
-# 🏆 Professional Highlights
-
-- 🛡️ CompTIA Security+ Certified
-- 🎓 Amazon Information Security Analyst Program (Correlation One)
-  - Graduated **with Honors**
-  - **96% Final Average**
-- ☁️ Currently studying for the AWS Certified AI Practitioner
-- 🎯 Seeking an entry-level SOC Analyst opportunity
+- CompTIA Security+ certified
+- Amazon Information Security Analyst Program graduate through Correlation One
+- Graduated with Honors and a 96% final average
+- Building a structured, hands-on cybersecurity engineering portfolio
+- Seeking an entry-level SOC Analyst opportunity
 
 ---
 
-# 🎯 Career Objective
+## Flagship program
 
-My goal is to begin my cybersecurity career as a Junior SOC Analyst where I can contribute to Security Operations while continuing to grow my skills in:
+### [Cyber Operations Center Engineering Program](https://github.com/scott-renny/cyber-operations-center-engineering-program)
 
-- Security Monitoring
-- Incident Response
-- Log Analysis
-- Linux Administration
-- Windows Administration
-- Networking
-- Infrastructure Engineering
-- Automation
-- Cloud Security
-- Technical Documentation
+A 26-phase engineering program documenting the design, deployment, security, operation, validation, and continued development of an enterprise-inspired Cyber Operations Center.
 
-I believe strong documentation, continuous learning, and hands-on experience are the foundation of becoming an effective cybersecurity professional.
+The program treats documentation and validation as engineering deliverables—not afterthoughts.
 
----
+| Completed phase | Outcome |
+|---|---|
+| Phase 0 — Program Governance | Security principles, documentation standards, risk management, evidence handling, and change control |
+| Phase 1 — Foundation | Clean-slate Ubuntu Server rebuild and validated infrastructure baseline |
+| Phase 2 — Base Hardening | SSH keys, UFW, Fail2Ban, Auditd, AppArmor, updates, and private HTTPS operations |
+| Phase 3 — Container Platform | Docker, Dockge, segmentation, logging standards, and secured management access |
+| Phase 4 — Core Network & Security | WireGuard, Pi-hole, Wazuh, ClamAV, local DNS, and scoped firewall access |
+| Phase 5 — Backup & Recovery | Automated protection, encrypted retention, monitoring, and restore verification |
+| Phase 6 — NET-WATCH | Network discovery, profile policies, Pi-hole enforcement, and Wazuh visibility |
 
-# 🧭 Engineering Philosophy
-
-Every repository follows the same principles:
-
-- 📚 Continuous Learning
-- 📖 Documentation First
-- 🔒 Security by Design
-- 🛡️ Defense in Depth
-- 🌐 Zero Trust
-- 🔑 Least Privilege
-- 🤖 Automate Repetitive Tasks
-- ✅ Validate Before Deployment
-- 📈 Continuous Improvement
+**Current status:** Phases 0–6 complete  
+**Next milestone:** Phase 7 — Telemetry Platform
 
 ---
 
-# 🚀 Flagship Engineering Program
+## Featured project
 
-## Cyber Operations Center Engineering Program
+### [NET-WATCH](https://github.com/scott-renny/netwatch)
 
-The Cyber Operations Center Engineering Program (COC) is the flagship project of my GitHub portfolio.
+NET-WATCH is the project I am most proud of.
 
-Rather than being a single lab, the COC is a long-term engineering program documenting the complete process of designing, building, securing, operating, documenting, validating, and continuously improving an enterprise-inspired Cyber Operations Center.
+It began as a way to manage family internet schedules and evolved into an operational network visibility and profile-based DNS access-control platform.
 
-The program is organized into **26 structured phases**, each covering a major aspect of planning, implementation, operations, testing, and continuous improvement.
+The current deployment includes:
 
-Throughout the program I document:
+- discovery and classification of real network devices;
+- assigned, unassigned, profile, and device-type views;
+- per-profile schedules and daily usage budgets;
+- manual profile kill switches;
+- Pi-hole v6 group-based DNS enforcement;
+- different content policies for different device profiles;
+- Wazuh alerts with MITRE ATT&CK context;
+- a Flask API served by Gunicorn and managed by systemd; and
+- private HTTPS access through Caddy.
 
-- Design decisions
-- Architecture
-- Implementation
-- Validation
-- Troubleshooting
-- Lessons Learned
-- Future Improvements
+Its Pi-hole integration is deliberately profile-scoped. NET-WATCH does not disable filtering for the entire network: it reconciles a managed rule against only the groups that should be blocked and rejects unsafe group configurations.
 
-The goal is to demonstrate how a production-inspired cybersecurity environment can be engineered from the ground up while documenting every step of the journey.
-
-### Current program milestone
-
-**Phases 0–6 are complete.** The current operational baseline includes governance, clean-slate infrastructure, base hardening, container management, core network and security services, validated backup and recovery, and the production NET-WATCH network visibility platform.
-
-The next milestone is **Phase 7 — Telemetry Platform**.
-
-- [Cyber Operations Center Engineering Program](https://github.com/scott-renny/cyber-operations-center-engineering-program)
-- [NET-WATCH](https://github.com/scott-renny/netwatch)
+**Demonstrated skills:** Python, Flask, REST APIs, Linux services, DNS security, network monitoring, access-control design, defensive programming, troubleshooting, and full-stack development.
 
 ---
 
-# 🏗 Companion Engineering Programs
+## Additional engineering projects
 
-Alongside the COC are several focused engineering programs that document major areas of the overall environment.
-
-## 💻 [Project Hermes](https://github.com/scott-renny/project-hermes)
-
-Windows Workstation Automation
-
-A modular PowerShell framework for configuring, validating, backing up, and restoring a repeatable Windows engineering workstation.
-
----
-
-## 🏛 [Project Atlas](https://github.com/scott-renny/project-atlas)
-
-Hardware Restoration and Server Upgrade
-
-Documents the restoration and modernization of a Dell Latitude E7250 repurposed as a dependable Ubuntu infrastructure server.
+| Project | Focus |
+|---|---|
+| [Project Hermes](https://github.com/scott-renny/project-hermes) | Modular PowerShell automation for configuring, validating, backing up, and restoring a Windows engineering workstation |
+| [Project Atlas](https://github.com/scott-renny/project-atlas) | Restoration and modernization of repurposed hardware as a dependable Ubuntu infrastructure server |
+| [Project Hydra](https://github.com/scott-renny/project-hydra) | SOC workstation design, analyst workflows, monitoring, investigations, and operational productivity |
+| [Backup Lab](https://github.com/scott-renny/backup-lab) | Linux backup automation, encrypted snapshots, restore testing, Samba, and Wazuh monitoring |
+| [Legacy Project Archive](https://github.com/scott-renny/legacy-project-archive) | Preserved earlier work showing the progression of my engineering and documentation practices |
 
 ---
 
-## 🐉 Project Hydra
+## Technical toolkit
 
-Security Operations Engineering
+| Area | Technologies and practices |
+|---|---|
+| Security operations | Wazuh, alert analysis, MITRE ATT&CK context, log analysis, hardening, malware monitoring |
+| Infrastructure | Ubuntu Server, Windows, Docker, Dockge, systemd, Caddy, virtualization |
+| Networking | TCP/IP, DNS, DHCP, Pi-hole, WireGuard, UFW, segmentation and VLAN concepts |
+| Automation | Python, PowerShell, Bash, scheduled jobs, REST API integration |
+| Development | Flask, HTML, CSS, JavaScript, JSON, Git, GitHub |
+| Engineering practice | Documentation, validation, troubleshooting, recovery testing, risk and change management |
 
-Documents the design and evolution of my multi-monitor SOC workstation including workflows, monitoring, investigations, productivity, automation, and analyst operations.
+## Currently developing
 
----
-
-## 🏔 Project Olympus
-
-Physical Infrastructure Engineering
-
-Documents the complete physical construction of my Cyber Operations Center including the workspace, desk build, monitor layout, hardware installation, cable management, equipment placement, upgrades, and engineering decisions.
-
----
-
-## 🔥 Project Hestia
-
-Media Infrastructure Engineering
-
-A self-hosted media platform demonstrating Linux administration, Docker, networking, storage management, automation, monitoring, and backup strategies.
-
----
-
-# 📚 Legacy Project Archive
-
-Learning never starts with perfection.
-
-The Legacy Project Archive preserves earlier labs and projects that no longer reflect my current engineering standards but remain valuable as part of my learning journey.
-
-Rather than deleting previous work, I keep it available to demonstrate continuous improvement and document how my skills have evolved over time.
+- Security monitoring and telemetry engineering
+- Detection engineering and threat hunting
+- Microsoft Sentinel and Splunk
+- Active Directory and identity security
+- Digital forensics and incident response
+- Infrastructure automation
+- Cloud and AWS security fundamentals
 
 ---
 
-# 💻 Technical Skills
+## How I work
 
-## Operating Systems
+```text
+Plan → Build → Secure → Validate → Document → Improve
+```
 
-- Windows
-- Ubuntu Server
-- Linux Administration
+I do not consider a service complete because it starts successfully. I want to understand how it behaves, how it fails, how it is monitored, how it can be recovered, and how another person could operate it from the documentation.
 
-## Infrastructure
-
-- Docker
-- Virtualization
-- WireGuard
-- Pi-hole
-- Wazuh
-
-## Networking
-
-- TCP/IP
-- DNS
-- DHCP
-- VPNs
-- Firewall Fundamentals
-- VLAN Fundamentals
-
-## Security
-
-- Security Operations Fundamentals
-- Log Analysis
-- Security Hardening
-- Incident Response Fundamentals
-- Vulnerability Management Fundamentals
-
-## Development
-
-- Git
-- GitHub
-- Python
-- Bash
-- PowerShell
-- HTML
-- CSS
-- JavaScript
+That approach is the foundation of this portfolio and the kind of discipline I hope to bring to a security operations team.
 
 ---
 
-# 📖 Currently Learning
-
-I believe cybersecurity requires continuous growth.
-
-Current areas of study include:
-
-- AWS Certified AI Practitioner
-- Microsoft Sentinel
-- Splunk
-- Active Directory
-- Detection Engineering
-- Digital Forensics & Incident Response (DFIR)
-- Infrastructure Automation
-- Threat Detection Engineering
-
----
-
-# 🌱 Why This Portfolio Exists
-
-This portfolio documents my transition into cybersecurity through structured, hands-on engineering.
-
-Rather than showcasing only completed projects, I document the entire process—from planning and implementation to troubleshooting, validation, and continuous improvement.
-
-My goal is to demonstrate not only technical ability but also the engineering mindset, discipline, documentation practices, and curiosity expected of a cybersecurity professional.
-
----
-
-# 🎮 Beyond Cybersecurity
-
-Outside of technology, I enjoy:
-
-- Horror movies
-- Comic books
-- LEGO
-- Gaming
-- Building homelab projects
-- Learning new technologies
-
----
-
-# 🤝 Let's Connect
-
-I'm always interested in connecting with other cybersecurity professionals, homelab enthusiasts, and lifelong learners.
-
-- 💼 LinkedIn
-- 📧 Email
-
----
-
-> **"Every expert was once a beginner. Every secure environment begins with one well-documented decision."**
+> **Build deliberately. Validate continuously. Document everything.**
