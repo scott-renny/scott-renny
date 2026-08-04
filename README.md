@@ -10,6 +10,7 @@ My portfolio focuses on the work behind dependable security operations: hardened
 ![COC Progress](https://img.shields.io/badge/COC-Phases%200--6%20Complete-success)
 ![Current Milestone](https://img.shields.io/badge/Next-Phase%207%20Telemetry-blue)
 ![Focus](https://img.shields.io/badge/Focus-Security%20Operations-005571)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/scottrenny)
 
 ---
 
@@ -124,6 +125,14 @@ Plan → Build → Secure → Validate → Document → Improve
 I do not consider a service complete because it starts successfully. I want to understand how it behaves, how it fails, how it is monitored, how it can be recovered, and how another person could operate it from the documentation.
 
 That approach is the foundation of this portfolio and the kind of discipline I hope to bring to a security operations team.
+
+---
+
+## Connect
+
+I’m interested in connecting with cybersecurity professionals, SOC analysts, infrastructure engineers, recruiters, and others who learn by building.
+
+[Connect with me on LinkedIn](https://www.linkedin.com/in/scottrenny)
 
 ---
 
