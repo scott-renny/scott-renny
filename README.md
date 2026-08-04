@@ -86,6 +86,15 @@ Throughout the program I document:
 
 The goal is to demonstrate how a production-inspired cybersecurity environment can be engineered from the ground up while documenting every step of the journey.
 
+### Current program milestone
+
+**Phases 0–6 are complete.** The current operational baseline includes governance, clean-slate infrastructure, base hardening, container management, core network and security services, validated backup and recovery, and the production NET-WATCH network visibility platform.
+
+The next milestone is **Phase 7 — Telemetry Platform**.
+
+- [Cyber Operations Center Engineering Program](https://github.com/scott-renny/cyber-operations-center-engineering-program)
+- [NET-WATCH](https://github.com/scott-renny/netwatch)
+
 ---
 
 # 🏗 Companion Engineering Programs
