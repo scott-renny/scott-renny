@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://www.comptia.org/certifications/security"><img alt="CompTIA Security+" src="https://img.shields.io/badge/CompTIA-Security%2B-EA1D2C?style=flat-square"></a>
   <a href="https://github.com/scott-renny/cyber-operations-center-engineering-program"><img alt="COC Phase 8 complete" src="https://img.shields.io/badge/COC-Phase%208%20Complete-2EA44F?style=flat-square"></a>
-  <img alt="Current milestone Fedora migration" src="https://img.shields.io/badge/Current-Fedora%20Migration-51A2DA?style=flat-square&logo=fedora&logoColor=white">
+  <img alt="Current milestone Fedora migration" src="https://img.shields.io/badge/Current-Fedora%20KDE%20Migration-51A2DA?style=flat-square&logo=fedora&logoColor=white">
   <a href="https://www.linkedin.com/in/scottrenny"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
 </p>
 
@@ -60,9 +60,11 @@ A structured 26-phase program documenting the design and operation of an enterpr
 - Zeek, Prometheus, Grafana, and Graylog telemetry; and
 - Windows, laptop, phone, and tablet endpoint engineering.
 
-**Current milestone:** [Phase 8.5 — Fedora Workstation Migration](https://github.com/scott-renny/cyber-operations-center-engineering-program/tree/main/phases/phase-08-5-workstation-migration)
+**Current milestone:** [Phase 8.5 — Fedora KDE Plasma Migration](https://github.com/scott-renny/cyber-operations-center-engineering-program/tree/main/phases/phase-08-5-workstation-migration)
 
-The next workstation will be built from verified Fedora media with Secure Boot, LUKS2-backed encryption, SELinux, firewalld, selective restoration, Wazuh monitoring, application acceptance testing, and a validated Fedora backup before the legacy Windows system is retired.
+[Project Cerberus](https://github.com/scott-renny/project-cerberus-build) delivers this workstation as the Fedora KDE engineering platform and primary COC control node.
+
+The next workstation will be built from verified Fedora KDE installation media with Secure Boot, LUKS2-backed encryption, SELinux, firewalld, selective restoration, Wazuh monitoring, application acceptance testing, and a validated Fedora backup before the legacy Windows system is retired.
 
 ---
 
@@ -111,7 +113,7 @@ The next workstation will be built from verified Fedora media with Secure Boot, 
 
 | Domain | Technologies and practices |
 |---|---|
-| Operating systems | Ubuntu Server, Windows 10/11, Fedora Workstation migration planning |
+| Operating systems | Ubuntu Server, Windows 10/11, Fedora KDE Plasma migration planning |
 | Security and telemetry | Wazuh, Sysmon, Zeek, Suricata, ClamAV, Graylog, MITRE ATT&CK |
 | Infrastructure | Docker, Docker Compose, Dockge, systemd, Caddy, Samba, virtualization |
 | Networking | TCP/IP, DNS, DHCP, Pi-hole, WireGuard, UFW, Nmap, segmentation concepts |
