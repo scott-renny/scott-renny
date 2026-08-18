@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://www.comptia.org/certifications/security"><img alt="CompTIA Security+" src="https://img.shields.io/badge/CompTIA-Security%2B-EA1D2C?style=flat-square"></a>
   <a href="https://github.com/scott-renny/cyber-operations-center-engineering-program"><img alt="COC Phase 8 complete" src="https://img.shields.io/badge/COC-Phase%208%20Complete-2EA44F?style=flat-square"></a>
-  <img alt="Current milestone Fedora migration" src="https://img.shields.io/badge/Current-Fedora%20KDE%20Migration-51A2DA?style=flat-square&logo=fedora&logoColor=white">
+  <img alt="Current milestone Linux Mint migration" src="https://img.shields.io/badge/Current-Linux%20Mint%20Cinnamon-86BE43?style=flat-square&logo=linuxmint&logoColor=white">
   <a href="https://www.linkedin.com/in/scottrenny"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
 </p>
 
@@ -60,11 +60,11 @@ A structured 26-phase program documenting the design and operation of an enterpr
 - Zeek, Prometheus, Grafana, and Graylog telemetry; and
 - Windows, laptop, phone, and tablet endpoint engineering.
 
-**Current milestone:** [Phase 8.5 — Fedora KDE Plasma Migration](https://github.com/scott-renny/cyber-operations-center-engineering-program/tree/main/phases/phase-08-5-workstation-migration)
+**Current milestone:** [Phase 8.5 — Linux Mint Cinnamon Migration](https://github.com/scott-renny/cyber-operations-center-engineering-program/tree/main/phases/phase-08-5-workstation-migration)
 
-[Project Cerberus](https://github.com/scott-renny/project-cerberus-build) delivers this workstation as the Fedora KDE engineering platform and primary COC control node.
+[Project Cerberus](https://github.com/scott-renny/project-cerberus-build) delivers this workstation as the Linux Mint Cinnamon engineering platform and primary COC control node.
 
-The next workstation will be built from verified Fedora KDE installation media with Secure Boot, LUKS2-backed encryption, SELinux, firewalld, selective restoration, Wazuh monitoring, application acceptance testing, and a validated Fedora backup before the legacy Windows system is retired.
+The next workstation will be built from verified Linux Mint Cinnamon installation media with Secure Boot, full-disk encryption, AppArmor, UFW, selective restoration, Wazuh monitoring, application acceptance testing, and a validated Linux Mint backup before the legacy Windows system is retired.
 
 ---
 
@@ -78,7 +78,7 @@ These six repositories are the curated entry points to my current portfolio.
 | [NET-WATCH](https://github.com/scott-renny/netwatch) | Operational network visibility and profile-based DNS access control | Python · Flask · Pi-hole · Nmap · Wazuh |
 | [Project Hermes](https://github.com/scott-renny/project-hermes) | Repeatable Windows provisioning, validation, backup, restoration, and maintenance | PowerShell · Pester · Windows Security |
 | [Project Daedalus](https://github.com/scott-renny/project-daedalus) | Self-hosted automation and intelligence workflows with explicit governance | n8n · APIs · JSON · Automation |
-| [Project Cerberus](https://github.com/scott-renny/project-cerberus-build) | Fedora KDE engineering workstation and primary COC control-node build | Fedora · KDE · SELinux · firewalld |
+| [Project Cerberus](https://github.com/scott-renny/project-cerberus-build) | Linux Mint Cinnamon engineering workstation and primary COC control-node build | Linux Mint · Cinnamon · AppArmor · UFW |
 | [Security+ Trainer](https://github.com/scott-renny/secplus-trainer) | Browser-based study tools, exercises, and mock examinations | HTML · CSS · JavaScript · Security+ |
 
 ### Additional engineering work
@@ -100,7 +100,7 @@ These six repositories are the curated entry points to my current portfolio.
 
 | Domain | Technologies and practices |
 |---|---|
-| Operating systems | Ubuntu Server, Windows 10/11, Fedora KDE Plasma migration planning |
+| Operating systems | Ubuntu Server, Windows 10/11, Linux Mint Cinnamon |
 | Security and telemetry | Wazuh, Sysmon, Zeek, Suricata, ClamAV, Graylog, MITRE ATT&CK |
 | Infrastructure | Docker, Docker Compose, Dockge, systemd, Caddy, Samba, virtualization |
 | Networking | TCP/IP, DNS, DHCP, Pi-hole, WireGuard, UFW, Nmap, segmentation concepts |
@@ -111,7 +111,7 @@ These six repositories are the curated entry points to my current portfolio.
 
 ## Current direction
 
-- Completing the Fedora replacement-workstation migration plan
+- Completing the Linux Mint replacement-workstation migration plan
 - Expanding detection engineering and threat-hunting skills
 - Developing incident-response and digital-forensics workflows
 - Building identity-security and Active Directory experience
@@ -137,7 +137,7 @@ I welcome conversations with SOC analysts, cybersecurity professionals, infrastr
 <p>
   <a href="https://www.linkedin.com/in/scottrenny"><strong>Connect with me on LinkedIn</strong></a>
   ·
-  <a href="https://scott-renny.github.io"><strong>Visit my portfolio</strong></a>
+  <a href="https://scott-renny.github.io"><strong>Read my engineering journal</strong></a>
   ·
   <a href="https://github.com/scott-renny?tab=repositories"><strong>Explore all repositories</strong></a>
 </p>
