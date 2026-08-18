@@ -68,47 +68,31 @@ The next workstation will be built from verified Fedora KDE installation media w
 
 ---
 
-## Selected projects
+## Featured repositories
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/scott-renny/netwatch">NET-WATCH</a></h3>
-      <p>Operational network visibility and profile-based DNS access control. Combines real device discovery, inventory, schedules, daily budgets, Pi-hole group policy, and Wazuh visibility in a private dashboard.</p>
-      <p><strong>Python · Flask · Pi-hole · Wazuh · Nmap · systemd · Caddy</strong></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/scott-renny/project-hermes">Project Hermes</a></h3>
-      <p>A modular PowerShell framework for provisioning, configuring, validating, backing up, restoring, and maintaining Windows engineering workstations with repeatable workflows and rollback paths.</p>
-      <p><strong>PowerShell · Windows · Validation · Backup · Automation</strong></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/scott-renny/secplus-trainer">Security+ Trainer</a></h3>
-      <p>A complete browser-based study suite with domain trainers, acronym and port exercises, performance-based practice, and four mock examinations that runs locally without an account or server.</p>
-      <p><strong>Security+ · HTML · CSS · JavaScript · Learning Design</strong></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/scott-renny/project-atlas">Project Atlas</a></h3>
-      <p>Hardware restoration and modernization of a used business laptop into a dependable, primarily headless Ubuntu infrastructure server, including compatibility, cooling, testing, and reliability planning.</p>
-      <p><strong>Linux · Hardware · Infrastructure · SSH · Reliability</strong></p>
-    </td>
-  </tr>
-</table>
+These six repositories are the curated entry points to my current portfolio.
 
-### More engineering work
+| Repository | What it demonstrates | Core technologies |
+|---|---|---|
+| [Cyber Operations Center Engineering Program](https://github.com/scott-renny/cyber-operations-center-engineering-program) | Phased security-operations program spanning infrastructure, endpoints, telemetry, recovery, and governance | Wazuh · Zeek · Docker · Linux · Windows |
+| [NET-WATCH](https://github.com/scott-renny/netwatch) | Operational network visibility and profile-based DNS access control | Python · Flask · Pi-hole · Nmap · Wazuh |
+| [Project Hermes](https://github.com/scott-renny/project-hermes) | Repeatable Windows provisioning, validation, backup, restoration, and maintenance | PowerShell · Pester · Windows Security |
+| [Project Daedalus](https://github.com/scott-renny/project-daedalus) | Self-hosted automation and intelligence workflows with explicit governance | n8n · APIs · JSON · Automation |
+| [Project Cerberus](https://github.com/scott-renny/project-cerberus-build) | Fedora KDE engineering workstation and primary COC control-node build | Fedora · KDE · SELinux · firewalld |
+| [Security+ Trainer](https://github.com/scott-renny/secplus-trainer) | Browser-based study tools, exercises, and mock examinations | HTML · CSS · JavaScript · Security+ |
+
+### Additional engineering work
 
 | Project | Focus |
 |---|---|
-| [Pi-hole DNS Infrastructure](https://github.com/scott-renny/pihole-dns-infrastructure) | DNS filtering, policy enforcement, monitoring, and resilient home-network name resolution |
+| [Project Ares](https://github.com/scott-renny/project_ares) | Isolated adversary simulation and detection validation |
+| [Project Apollo](https://github.com/scott-renny/project-apollo) | Samsung mobile-device security hardening and validation |
+| [Project Atlas](https://github.com/scott-renny/project-atlas) | Linux infrastructure hardware restoration and reliability |
+| [Pi-hole DNS Infrastructure](https://github.com/scott-renny/pihole-dns-infrastructure) | DNS filtering, policy enforcement, and resilient name resolution |
 | [Home Lab Network Security](https://github.com/scott-renny/home-lab-network-security) | Network architecture, segmentation, secure administration, and defensive controls |
-| [HomeSOC](https://github.com/scott-renny/homesoc) | Security monitoring and SOC-oriented home-lab development |
-| [Backup Lab](https://github.com/scott-renny/backup-lab) | Early Linux backup automation and the foundation of later recovery-engineering work |
-| [Project Daedalus](https://github.com/scott-renny/project-daedalus) | Self-hosted automation and intelligence workflows built around n8n |
-| [Project Ares](https://github.com/scott-renny/project_ares) | Adversary simulation and detection-validation engineering |
-| [Project Apollo](https://github.com/scott-renny/project-apollo) | Portfolio project documented in its dedicated repository |
-| [Legacy Project Archive](https://github.com/scott-renny/legacy-project-archive) | Preserved earlier work showing the progression of my engineering and documentation practices |
+| [HomeSOC](https://github.com/scott-renny/homesoc) | Preserved SOC-oriented home-lab engineering |
+| [Backup Lab](https://github.com/scott-renny/backup-lab) | Preserved Linux backup automation and recovery engineering |
+| [Legacy Project Archive](https://github.com/scott-renny/legacy-project-archive) | Earlier work showing the progression of my engineering practices |
 
 ---
 
