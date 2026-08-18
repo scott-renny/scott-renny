@@ -105,6 +105,9 @@ The next workstation will be built from verified Fedora KDE installation media w
 | [Home Lab Network Security](https://github.com/scott-renny/home-lab-network-security) | Network architecture, segmentation, secure administration, and defensive controls |
 | [HomeSOC](https://github.com/scott-renny/homesoc) | Security monitoring and SOC-oriented home-lab development |
 | [Backup Lab](https://github.com/scott-renny/backup-lab) | Early Linux backup automation and the foundation of later recovery-engineering work |
+| [Project Daedalus](https://github.com/scott-renny/project-daedalus) | Self-hosted automation and intelligence workflows built around n8n |
+| [Project Ares](https://github.com/scott-renny/project_ares) | Adversary simulation and detection-validation engineering |
+| [Project Apollo](https://github.com/scott-renny/project-apollo) | Portfolio project documented in its dedicated repository |
 | [Legacy Project Archive](https://github.com/scott-renny/legacy-project-archive) | Preserved earlier work showing the progression of my engineering and documentation practices |
 
 ---
@@ -149,6 +152,8 @@ I welcome conversations with SOC analysts, cybersecurity professionals, infrastr
 
 <p>
   <a href="https://www.linkedin.com/in/scottrenny"><strong>Connect with me on LinkedIn</strong></a>
+  ·
+  <a href="https://scott-renny.github.io"><strong>Visit my portfolio</strong></a>
   ·
   <a href="https://github.com/scott-renny?tab=repositories"><strong>Explore all repositories</strong></a>
 </p>
