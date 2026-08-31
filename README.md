@@ -1,7 +1,7 @@
 <h1 align="center">Scott Renny</h1>
 
 <p align="center">
-  <strong>Security+ Certified · Cybersecurity Engineering · Security Operations</strong>
+  <strong>Security+ Certified · AWS Certified AI Practitioner · Cybersecurity Engineering · Security Operations</strong>
 </p>
 
 <p align="center">
@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="https://www.comptia.org/certifications/security"><img alt="CompTIA Security+" src="https://img.shields.io/badge/CompTIA-Security%2B-EA1D2C?style=flat-square"></a>
+  <a href="https://aws.amazon.com/certification/certified-ai-practitioner/"><img alt="AWS Certified AI Practitioner" src="https://img.shields.io/badge/AWS-Certified%20AI%20Practitioner-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white"></a>
   <a href="https://github.com/scott-renny/cyber-operations-center-engineering-program"><img alt="COC Phase 8 complete" src="https://img.shields.io/badge/COC-Phase%208%20Complete-2EA44F?style=flat-square"></a>
   <img alt="Current milestone Linux Mint migration" src="https://img.shields.io/badge/Current-Linux%20Mint%20Cinnamon-86BE43?style=flat-square&logo=linuxmint&logoColor=white">
   <a href="https://www.linkedin.com/in/scottrenny"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
@@ -19,7 +20,7 @@
 
 ## About me
 
-I am a Security+ certified cybersecurity practitioner building toward a security operations role through hands-on engineering.
+I hold CompTIA Security+ and AWS Certified AI Practitioner certifications, and I am building toward a security operations role through hands-on engineering.
 
 My portfolio goes beyond installing tools. Each major project documents the architecture, security decisions, implementation, validation evidence, failure modes, recovery procedures, and lessons learned behind the finished system.
 
@@ -123,6 +124,7 @@ These six repositories are the curated entry points to my current portfolio.
 ## Professional highlights
 
 - CompTIA Security+ certified
+- AWS Certified AI Practitioner (AIF-C01), earned August 29, 2026
 - Amazon Information Security Analyst Program graduate through Correlation One
 - Graduated with Honors and a 96% final average
 - Building a public, validation-driven cybersecurity engineering portfolio
