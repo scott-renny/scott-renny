@@ -12,7 +12,7 @@
   <a href="https://www.comptia.org/certifications/security"><img alt="CompTIA Security+" src="https://img.shields.io/badge/CompTIA-Security%2B-EA1D2C?style=flat-square"></a>
   <a href="https://aws.amazon.com/certification/certified-ai-practitioner/"><img alt="AWS Certified AI Practitioner" src="https://img.shields.io/badge/AWS-Certified%20AI%20Practitioner-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white"></a>
   <a href="https://github.com/scott-renny/cyber-operations-center-engineering-program"><img alt="COC Phase 8 complete" src="https://img.shields.io/badge/COC-Phase%208%20Complete-2EA44F?style=flat-square"></a>
-  <img alt="Current milestone Linux Mint migration" src="https://img.shields.io/badge/Current-Linux%20Mint%20Cinnamon-86BE43?style=flat-square&logo=linuxmint&logoColor=white">
+  <img alt="Current milestone COC Phase 9 Nextcloud" src="https://img.shields.io/badge/Current-Phase%209%20Nextcloud-0082C9?style=flat-square">
   <a href="https://www.linkedin.com/in/scottrenny"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
 </p>
 
@@ -61,7 +61,9 @@ A structured 26-phase program documenting the design and operation of an enterpr
 - Zeek, Prometheus, Grafana, and Graylog telemetry; and
 - Windows, laptop, phone, and tablet endpoint engineering.
 
-**Current milestone:** [Phase 8.5 — Linux Mint Cinnamon Migration](https://github.com/scott-renny/cyber-operations-center-engineering-program/tree/main/phases/phase-08-5-workstation-migration)
+**Current milestone: Phase 9 — Nextcloud Platform.**
+
+Phase 8.5 — Linux Mint Cinnamon Migration remains blocked in parallel pending the Cerberus hardware build; it does not gate Phase 9.
 
 [Project Cerberus](https://github.com/scott-renny/project-cerberus-build) delivers this workstation as the Linux Mint Cinnamon engineering platform and primary COC control node.
 
@@ -88,7 +90,7 @@ These six repositories are the curated entry points to my current portfolio.
 |---|---|
 | [Project Ares](https://github.com/scott-renny/project_ares) | Isolated adversary simulation and detection validation |
 | [Project Apollo](https://github.com/scott-renny/project-apollo) | Samsung mobile-device security hardening and validation |
-| [Project Atlas](https://github.com/scott-renny/project-atlas) | Linux infrastructure hardware restoration and reliability |
+| [Project Atlas](https://github.com/scott-renny/project-atlas) | Operational Ubuntu infrastructure; completed hardware restoration, unattended power/reboot recovery, and owner-confirmed external SSH/remote-development acceptance |
 | [Pi-hole DNS Infrastructure](https://github.com/scott-renny/pihole-dns-infrastructure) | DNS filtering, policy enforcement, and resilient name resolution |
 | [Home Lab Network Security](https://github.com/scott-renny/home-lab-network-security) | Network architecture, segmentation, secure administration, and defensive controls |
 | [HomeSOC](https://github.com/scott-renny/homesoc) | Preserved SOC-oriented home-lab engineering |
@@ -110,9 +112,12 @@ These six repositories are the curated entry points to my current portfolio.
 | Recovery | Restic, rsync, retention policies, integrity checks, hash comparison, restore testing |
 | Engineering practice | Architecture decisions, risk analysis, change control, evidence handling, runbooks |
 
+Atlas v1 completed its September 7, 2026 unattended-operation resilience milestone using the existing laptop battery, BIOS Wake on AC, systemd and Docker restart policies. Optional evidence follow-up does not reopen the completed operational milestone.
+
 ## Current direction
 
-- Completing the Linux Mint replacement-workstation migration plan
+- Completing and validating COC Phase 9 — Nextcloud Platform
+- Keeping completed Atlas infrastructure operational through simple, reusable recovery controls
 - Expanding detection engineering and threat-hunting skills
 - Developing incident-response and digital-forensics workflows
 - Building identity-security and Active Directory experience
