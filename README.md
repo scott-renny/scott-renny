@@ -11,8 +11,8 @@
 <p align="center">
   <a href="https://www.comptia.org/certifications/security"><img alt="CompTIA Security+" src="https://img.shields.io/badge/CompTIA-Security%2B-EA1D2C?style=flat-square"></a>
   <a href="https://aws.amazon.com/certification/certified-ai-practitioner/"><img alt="AWS Certified AI Practitioner" src="https://img.shields.io/badge/AWS-Certified%20AI%20Practitioner-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white"></a>
-  <a href="https://github.com/scott-renny/cyber-operations-center-engineering-program"><img alt="COC Phase 8 complete" src="https://img.shields.io/badge/COC-Phase%208%20Complete-2EA44F?style=flat-square"></a>
-  <img alt="Current milestone COC Phase 9 Nextcloud" src="https://img.shields.io/badge/Current-Phase%209%20Nextcloud-0082C9?style=flat-square">
+  <a href="https://github.com/scott-renny/cyber-operations-center-engineering-program"><img alt="COC Phase 9 complete" src="https://img.shields.io/badge/COC-Phase%209%20Complete-2EA44F?style=flat-square"></a>
+  <img alt="Completed milestone COC Phase 9 Nextcloud" src="https://img.shields.io/badge/Completed-Phase%209%20Nextcloud-0082C9?style=flat-square">
   <a href="https://www.linkedin.com/in/scottrenny"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
 </p>
 
@@ -50,7 +50,7 @@ Plan → Build → Secure → Validate → Monitor → Recover → Document → 
 
 A structured 26-phase program documenting the design and operation of an enterprise-inspired Cyber Operations Center.
 
-**Completed through Phase 8:**
+**Completed phases 0–9 (Phase 8.5 remains blocked separately):**
 
 - program governance, risk management, and documentation standards;
 - clean-slate Ubuntu Server foundation and base hardening;
@@ -61,7 +61,9 @@ A structured 26-phase program documenting the design and operation of an enterpr
 - Zeek, Prometheus, Grafana, and Graylog telemetry; and
 - Windows, laptop, phone, and tablet endpoint engineering.
 
-**Current milestone: Phase 9 — Nextcloud Platform.**
+**Phase 9 — File Access & Sync: COMPLETE (September 10/11, 2026).**
+
+Nextcloud 34.0.3 file access and sync is complete on Atlas, with Tailscale private access through a canonical HTTPS hostname and Caddy, tested Restic backup and database restore, Wazuh FIM alert validation, EICAR-tested ClamAV, working 2FA and outbound email, configured Windows 11 and Windows 10 clients, and successful reboot persistence. Galaxy S25 and Tab A11 Nextcloud onboarding are intentionally deferred and are not Phase 9 blockers.
 
 Phase 8.5 — Linux Mint Cinnamon Migration remains blocked in parallel pending the Cerberus hardware build; it does not gate Phase 9.
 
@@ -116,7 +118,7 @@ Atlas v1 completed its September 7, 2026 unattended-operation resilience milesto
 
 ## Current direction
 
-- Completing and validating COC Phase 9 — Nextcloud Platform
+- Operating the completed COC Phase 9 Nextcloud platform; Phase 10 Identity Services remains planned
 - Keeping completed Atlas infrastructure operational through simple, reusable recovery controls
 - Expanding detection engineering and threat-hunting skills
 - Developing incident-response and digital-forensics workflows
