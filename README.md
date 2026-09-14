@@ -34,6 +34,7 @@ Plan → Build → Secure → Validate → Monitor → Recover → Document → 
 
 | Area | Current evidence |
 |---|---|
+| Cloud engineering | Cognito-approved serverless ticket intake, scoped workload permissions, DynamoDB persistence, SNS email, EC2 IMDSv2 and teardown validation |
 | Security operations | Wazuh endpoint monitoring, alert analysis, Sysmon telemetry, MITRE ATT&CK context, malware remediation |
 | Infrastructure security | Hardened Ubuntu Server, Windows endpoint baselines, Docker segmentation, private HTTPS administration |
 | Network security | WireGuard, Pi-hole DNS policy, UFW, device discovery, network metadata, access-control design |
@@ -75,10 +76,11 @@ The next workstation will be built from verified Linux Mint Cinnamon installatio
 
 ## Featured repositories
 
-These six repositories are the curated entry points to my current portfolio.
+These repositories are the curated entry points to my current portfolio.
 
 | Repository | What it demonstrates | Core technologies |
 |---|---|---|
+| [Cloud Engineering Portfolio](https://github.com/scott-renny/cloud-engineering-portfolio) | Completed Family IT Help Desk v0.1, secure EC2 lifecycle, Budgets and human-reviewed Bedrock evaluation | AWS · Cognito · Lambda · DynamoDB · SNS |
 | [Cyber Operations Center Engineering Program](https://github.com/scott-renny/cyber-operations-center-engineering-program) | Phased security-operations program spanning infrastructure, endpoints, telemetry, recovery, and governance | Wazuh · Zeek · Docker · Linux · Windows |
 | [NET-WATCH](https://github.com/scott-renny/netwatch) | Operational network visibility and profile-based DNS access control | Python · Flask · Pi-hole · Nmap · Wazuh |
 | [Project Hermes](https://github.com/scott-renny/project-hermes) | Repeatable Windows provisioning, validation, backup, restoration, and maintenance | PowerShell · Pester · Windows Security |
@@ -123,7 +125,7 @@ Atlas v1 completed its September 7, 2026 unattended-operation resilience milesto
 - Expanding detection engineering and threat-hunting skills
 - Developing incident-response and digital-forensics workflows
 - Building identity-security and Active Directory experience
-- Strengthening cloud and AWS security fundamentals
+- Building on completed AWS foundation labs and Family IT Help Desk v0.1; v0.2 ticket management is in planning
 - Preparing for an entry-level SOC Analyst opportunity
 
 ---
