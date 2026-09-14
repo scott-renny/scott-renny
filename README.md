@@ -11,8 +11,8 @@
 <p align="center">
   <a href="https://www.comptia.org/certifications/security"><img alt="CompTIA Security+" src="https://img.shields.io/badge/CompTIA-Security%2B-EA1D2C?style=flat-square"></a>
   <a href="https://aws.amazon.com/certification/certified-ai-practitioner/"><img alt="AWS Certified AI Practitioner" src="https://img.shields.io/badge/AWS-Certified%20AI%20Practitioner-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white"></a>
-  <a href="https://github.com/scott-renny/cyber-operations-center-engineering-program"><img alt="COC Phase 9 complete" src="https://img.shields.io/badge/COC-Phase%209%20Complete-2EA44F?style=flat-square"></a>
-  <img alt="Completed milestone COC Phase 9 Nextcloud" src="https://img.shields.io/badge/Completed-Phase%209%20Nextcloud-0082C9?style=flat-square">
+  <a href="https://github.com/scott-renny/cyber-operations-center-engineering-program"><img alt="COC Phase 10 in progress" src="https://img.shields.io/badge/COC-Phase%2010%20In%20Progress-F0AD4E?style=flat-square"></a>
+  <img alt="Current milestone Active Directory identity lab" src="https://img.shields.io/badge/Current-Active%20Directory%20Identity%20Lab-0078D4?style=flat-square">
   <a href="https://www.linkedin.com/in/scottrenny"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
 </p>
 
@@ -36,8 +36,9 @@ Plan → Build → Secure → Validate → Monitor → Recover → Document → 
 |---|---|
 | Cloud engineering | Cognito-approved serverless ticket intake, scoped workload permissions, DynamoDB persistence, SNS email, EC2 IMDSv2 and teardown validation |
 | Security operations | Wazuh endpoint monitoring, alert analysis, Sysmon telemetry, MITRE ATT&CK context, malware remediation |
+| Identity security | Windows Server 2025 AD DS/DNS, OU/group design, AGDLP-style privilege assignment, separate daily/admin/Tier-0 identities, Protected Users, gMSA and Kerberos attack-path practice |
 | Infrastructure security | Hardened Ubuntu Server, Windows endpoint baselines, Docker segmentation, private HTTPS administration |
-| Network security | WireGuard, Pi-hole DNS policy, UFW, device discovery, network metadata, access-control design |
+| Network security | Tailscale/private access, Pi-hole DNS policy, UFW, device discovery, network metadata, access-control design |
 | Observability | Zeek, Prometheus, Grafana, Graylog, centralized Windows and Linux telemetry |
 | Recovery engineering | Automated rsync and Restic backups, encrypted retention, integrity checks, representative restore validation |
 | Automation | Python, PowerShell, Bash, systemd, scheduled jobs, REST APIs, GitHub workflows |
@@ -56,17 +57,20 @@ A structured 26-phase program documenting the design and operation of an enterpr
 - program governance, risk management, and documentation standards;
 - clean-slate Ubuntu Server foundation and base hardening;
 - Docker platform security and private management access;
-- WireGuard, Pi-hole, Wazuh, ClamAV, and scoped firewall controls;
+- private remote access, Pi-hole, Wazuh, ClamAV, and scoped firewall controls;
 - encrypted, monitored, and restore-tested backup infrastructure;
 - NET-WATCH network visibility and profile-based DNS enforcement;
-- Zeek, Prometheus, Grafana, and Graylog telemetry; and
-- Windows, laptop, phone, and tablet endpoint engineering.
+- Zeek, Prometheus, Grafana, and Graylog telemetry;
+- Windows, laptop, phone, and tablet endpoint engineering; and
+- private Nextcloud file access and sync with tested recovery and security controls.
 
-**Phase 9 — File Access & Sync: COMPLETE (September 10/11, 2026).**
+**Phase 10 — Identity Services: IN PROGRESS.**
 
-Nextcloud 34.0.3 file access and sync is complete on Atlas, with Tailscale private access through a canonical HTTPS hostname and Caddy, tested Restic backup and database restore, Wazuh FIM alert validation, EICAR-tested ClamAV, working 2FA and outbound email, configured Windows 11 and Windows 10 clients, and successful reboot persistence. Galaxy S25 and Tab A11 Nextcloud onboarding are intentionally deferred and are not Phase 9 blockers.
+The current build uses Windows Server 2025 on `DC01` with the `corp.lab.test` forest/domain. AD DS and DNS are healthy and validated. I have built a protected OU/group model, AGDLP-style administrative nesting, separate everyday/admin/Tier-0 identities, stronger password and lockout policy, a working gMSA/KDS foundation, and a deliberately isolated legacy service identity for later Kerberoasting detection work. PowerShell 7.6.6 is installed alongside Windows PowerShell.
 
-Phase 8.5 — Linux Mint Cinnamon Migration remains blocked in parallel pending the Cerberus hardware build; it does not gate Phase 9.
+Next work is GPO-based privileged-logon control, then the Windows 11 client and Kali attacker, Wazuh/Sysmon identity telemetry, controlled password-spray and Kerberoasting exercises, incident-response records, and Greenbone/OpenVAS vulnerability-management practice.
+
+Phase 8.5 — Linux Mint Cinnamon Migration remains blocked in parallel pending the Cerberus hardware build; it does not gate independent Phase 10 work.
 
 [Project Cerberus](https://github.com/scott-renny/project-cerberus-build) delivers this workstation as the Linux Mint Cinnamon engineering platform and primary COC control node.
 
@@ -81,7 +85,7 @@ These repositories are the curated entry points to my current portfolio.
 | Repository | What it demonstrates | Core technologies |
 |---|---|---|
 | [Cloud Engineering Portfolio](https://github.com/scott-renny/cloud-engineering-portfolio) | Completed Family IT Help Desk v0.1, secure EC2 lifecycle, Budgets and human-reviewed Bedrock evaluation | AWS · Cognito · Lambda · DynamoDB · SNS |
-| [Cyber Operations Center Engineering Program](https://github.com/scott-renny/cyber-operations-center-engineering-program) | Phased security-operations program spanning infrastructure, endpoints, telemetry, recovery, and governance | Wazuh · Zeek · Docker · Linux · Windows |
+| [Cyber Operations Center Engineering Program](https://github.com/scott-renny/cyber-operations-center-engineering-program) | Phased security-operations program spanning infrastructure, endpoints, telemetry, recovery, identity and governance | Wazuh · Active Directory · Zeek · Docker · Linux · Windows |
 | [NET-WATCH](https://github.com/scott-renny/netwatch) | Operational network visibility and profile-based DNS access control | Python · Flask · Pi-hole · Nmap · Wazuh |
 | [Project Hermes](https://github.com/scott-renny/project-hermes) | Repeatable Windows provisioning, validation, backup, restoration, and maintenance | PowerShell · Pester · Windows Security |
 | [Project Daedalus](https://github.com/scott-renny/project-daedalus) | Self-hosted automation and intelligence workflows with explicit governance | n8n · APIs · JSON · Automation |
@@ -107,10 +111,11 @@ These repositories are the curated entry points to my current portfolio.
 
 | Domain | Technologies and practices |
 |---|---|
-| Operating systems | Ubuntu Server, Windows 10/11, Linux Mint Cinnamon |
+| Operating systems | Ubuntu Server, Windows Server 2025, Windows 10/11, Linux Mint Cinnamon |
 | Security and telemetry | Wazuh, Sysmon, Zeek, Suricata, ClamAV, Graylog, MITRE ATT&CK |
+| Identity | Active Directory Domain Services, DNS, Group Policy, Kerberos, AGDLP, Protected Users, gMSA |
 | Infrastructure | Docker, Docker Compose, Dockge, systemd, Caddy, Samba, virtualization |
-| Networking | TCP/IP, DNS, DHCP, Pi-hole, WireGuard, UFW, Nmap, segmentation concepts |
+| Networking | TCP/IP, DNS, DHCP, Pi-hole, Tailscale, UFW, Nmap, segmentation concepts |
 | Observability | Prometheus, Grafana, structured logs, health checks, operational dashboards |
 | Automation and development | Python, PowerShell, Bash, Flask, REST APIs, HTML, CSS, JavaScript |
 | Recovery | Restic, rsync, retention policies, integrity checks, hash comparison, restore testing |
@@ -120,11 +125,11 @@ Atlas v1 completed its September 7, 2026 unattended-operation resilience milesto
 
 ## Current direction
 
-- Operating the completed COC Phase 9 Nextcloud platform; Phase 10 Identity Services remains planned
+- Building COC Phase 10 Identity Services with Windows Server 2025 Active Directory, privilege separation, Kerberos attack-and-defense practice and later Wazuh/Sysmon detection validation
+- Operating the completed Phase 9 Nextcloud platform without reopening accepted scope
 - Keeping completed Atlas infrastructure operational through simple, reusable recovery controls
 - Expanding detection engineering and threat-hunting skills
 - Developing incident-response and digital-forensics workflows
-- Building identity-security and Active Directory experience
 - Building on completed AWS foundation labs and Family IT Help Desk v0.1; v0.2 ticket management is in planning
 - Preparing for an entry-level SOC Analyst opportunity
 
@@ -137,7 +142,7 @@ Atlas v1 completed its September 7, 2026 unattended-operation resilience milesto
 - Amazon Information Security Analyst Program graduate through Correlation One
 - Graduated with Honors and a 96% final average
 - Building a public, validation-driven cybersecurity engineering portfolio
-- Interested in SOC analysis, infrastructure security, detection, and incident response
+- Interested in SOC analysis, infrastructure security, identity security, detection, and incident response
 
 ---
 
