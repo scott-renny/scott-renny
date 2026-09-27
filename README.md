@@ -20,7 +20,7 @@
 
 ## About me
 
-I hold CompTIA Security+ and AWS Certified AI Practitioner certifications, and I am building toward a security operations role through hands-on engineering.
+I hold CompTIA Security+ and AWS Certified AI Practitioner certifications. My near-term target is an entry-level cybersecurity/SOC-oriented role, and I'm deliberately building broader capability in security engineering, cloud and cloud security engineering, and AI-assisted automation engineering through hands-on, production-style projects.
 
 My portfolio goes beyond installing tools. Each major project documents the architecture, security decisions, implementation, validation evidence, failure modes, recovery procedures, and lessons learned behind the finished system.
 
@@ -42,6 +42,7 @@ Plan → Build → Secure → Validate → Monitor → Recover → Document → 
 | Observability | Zeek, Prometheus, Grafana, Graylog, centralized Windows and Linux telemetry |
 | Recovery engineering | Automated rsync and Restic backups, encrypted retention, integrity checks, representative restore validation |
 | Automation | Python, PowerShell, Bash, systemd, scheduled jobs, REST APIs, GitHub workflows |
+| AI-assisted automation | Deterministic eligibility/safety gates, grounded document generation from verified data, reviewer critique, human authority at consequential actions |
 | Engineering governance | ADRs, risk registers, change control, evidence handling, validation gates, completion records |
 
 ---
@@ -78,25 +79,36 @@ The next workstation will be built from verified Linux Mint Cinnamon installatio
 
 ---
 
+## AI Job Search Automation Platform
+
+One of my strongest individual production-style engineering projects: a production-style AI automation platform with deterministic eligibility and safety gates, grounded document generation from verified candidate information, an independent reviewer-critique pass, controlled browser automation, and human authority preserved at every consequential decision point. It is not presented as fully autonomous — a CAPTCHA, security question, or ambiguous requirement always hands control back to a human.
+
+**Operational private platform · public portfolio showcase published.**
+
+[View the public showcase →](https://github.com/scott-renny/ai-job-search-automation-platform)
+
+---
+
 ## Featured repositories
 
 These repositories are the curated entry points to my current portfolio.
 
 | Repository | What it demonstrates | Core technologies |
 |---|---|---|
-| [Cloud Engineering Portfolio](https://github.com/scott-renny/cloud-engineering-portfolio) | Completed Family IT Help Desk v0.1, secure EC2 lifecycle, Budgets and human-reviewed Bedrock evaluation | AWS · Cognito · Lambda · DynamoDB · SNS |
 | [Cyber Operations Center Engineering Program](https://github.com/scott-renny/cyber-operations-center-engineering-program) | Phased security-operations program spanning infrastructure, endpoints, telemetry, recovery, identity and governance | Wazuh · Active Directory · Zeek · Docker · Linux · Windows |
-| [NET-WATCH](https://github.com/scott-renny/netwatch) | Operational network visibility and profile-based DNS access control | Python · Flask · Pi-hole · Nmap · Wazuh |
-| [Project Hermes](https://github.com/scott-renny/project-hermes) | Repeatable Windows provisioning, validation, backup, restoration, and maintenance | PowerShell · Pester · Windows Security |
-| [Project Daedalus](https://github.com/scott-renny/project-daedalus) | Self-hosted automation and intelligence workflows with explicit governance | n8n · APIs · JSON · Automation |
+| [AI Job Search Automation Platform](https://github.com/scott-renny/ai-job-search-automation-platform) | Production-style AI automation with deterministic safety gates, grounded generation, reviewer critique, and human-controlled submission | Python · Claude/Groq · Playwright · systemd |
+| [NET-WATCH](https://github.com/scott-renny/netwatch) | Complete, operational, maintained network visibility and profile-based DNS access-control platform | Python · Flask · Pi-hole · Nmap · Wazuh |
+| [Project Hermes](https://github.com/scott-renny/project-hermes) | Stable v1.0.1 release — repeatable Windows provisioning, validation, backup, restoration, and maintenance, validated by 381 automated tests | PowerShell · Pester · Windows Security |
+| [Cloud Engineering Portfolio](https://github.com/scott-renny/cloud-engineering-portfolio) | Completed AWS starter series and Family IT Help Desk v0.2 authenticated ticket management | AWS · Cognito · Lambda · DynamoDB · SNS |
 | [Project Cerberus](https://github.com/scott-renny/project-cerberus-build) | Linux Mint Cinnamon engineering workstation and primary COC control-node build | Linux Mint · Cinnamon · AppArmor · UFW |
+| [Project Daedalus](https://github.com/scott-renny/project-daedalus) | Self-hosted automation and intelligence workflows with explicit governance | n8n · APIs · JSON · Automation |
 | [Security+ Trainer](https://github.com/scott-renny/secplus-trainer) | Browser-based study tools, exercises, and mock examinations | HTML · CSS · JavaScript · Security+ |
 
 ### Additional engineering work
 
 | Project | Focus |
 |---|---|
-| [Project Ares](https://github.com/scott-renny/project_ares) | Isolated adversary simulation and detection validation |
+| [Project Ares](https://github.com/scott-renny/project_ares) | Isolated adversary simulation and detection validation — design & planning stage |
 | [Project Apollo](https://github.com/scott-renny/project-apollo) | Samsung mobile-device security hardening and validation |
 | [Project Atlas](https://github.com/scott-renny/project-atlas) | Operational Ubuntu infrastructure; completed hardware restoration, unattended power/reboot recovery, and owner-confirmed external SSH/remote-development acceptance |
 | [Pi-hole DNS Infrastructure](https://github.com/scott-renny/pihole-dns-infrastructure) | DNS filtering, policy enforcement, and resilient name resolution |
@@ -125,13 +137,15 @@ Atlas v1 completed its September 7, 2026 unattended-operation resilience milesto
 
 ## Current direction
 
+- Pursuing entry-level cybersecurity / SOC-oriented roles as my near-term target
+- Deliberately building toward security engineering, cloud/cloud security engineering, and AI engineering & automation through hands-on, production-style projects — direction, not a current title
 - Building COC Phase 10 Identity Services with Windows Server 2025 Active Directory, privilege separation, Kerberos attack-and-defense practice and later Wazuh/Sysmon detection validation
 - Operating the completed Phase 9 Nextcloud platform without reopening accepted scope
 - Keeping completed Atlas infrastructure operational through simple, reusable recovery controls
+- Progressing a booked AWS certification path: Cloud Practitioner (Oct 24), Solutions Architect – Associate (Nov 28), Security – Specialty (Dec 19, 2026)
+- Building on the completed AWS starter series and Family IT Help Desk v0.2 authenticated ticket management
 - Expanding detection engineering and threat-hunting skills
 - Developing incident-response and digital-forensics workflows
-- Building on completed AWS foundation labs and Family IT Help Desk v0.1; v0.2 ticket management is in planning
-- Preparing for an entry-level SOC Analyst opportunity
 
 ---
 
@@ -139,7 +153,7 @@ Atlas v1 completed its September 7, 2026 unattended-operation resilience milesto
 
 - CompTIA Security+ certified
 - AWS Certified AI Practitioner (AIF-C01), earned August 29, 2026
-- Amazon Information Security Analyst Program graduate through Correlation One
+- Information Security Analyst Program — Correlation One graduate
 - Graduated with Honors and a 96% final average
 - Building a public, validation-driven cybersecurity engineering portfolio
 - Interested in SOC analysis, infrastructure security, identity security, detection, and incident response
