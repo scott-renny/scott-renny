@@ -67,9 +67,9 @@ A structured 26-phase program documenting the design and operation of an enterpr
 
 **Phase 10 — Identity Services: IN PROGRESS.**
 
-The current build uses Windows Server 2025 on `DC01` with the `corp.lab.test` forest/domain. AD DS and DNS are healthy and validated. I have built a protected OU/group model, AGDLP-style administrative nesting, separate everyday/admin/Tier-0 identities, stronger password and lockout policy, a working gMSA/KDS foundation, and a deliberately isolated legacy service identity for later Kerberoasting detection work. PowerShell 7.6.6 is installed alongside Windows PowerShell.
+The current pre-attack baseline uses Windows Server 2025 on `DC01` and a Windows 11 Enterprise domain client in the isolated `corp.lab.test` lab. AD DS/DNS, protected OU/group design, AGDLP-based workstation administration, separate everyday/admin/Tier-0 identities, Tier-0 workstation logon restrictions, hardened password/lockout policy, a working gMSA/KDS foundation, advanced audit policy, and a deliberately isolated legacy service identity are implemented and validated. I also hardened the default machine-account quota from 10 to 0 with explicit workstation-admin delegation and remediated a multihomed-DC DNS registration issue before capturing clean pre-attack snapshots.
 
-Next work is GPO-based privileged-logon control, then the Windows 11 client and Kali attacker, Wazuh/Sysmon identity telemetry, controlled password-spray and Kerberoasting exercises, incident-response records, and Greenbone/OpenVAS vulnerability-management practice.
+Next work is the isolated Kali attacker and Wazuh/Sysmon telemetry validation, followed by controlled password-spray, Kerberoasting and credential-access exercises, investigation/remediation, incident-response records, and Greenbone/OpenVAS vulnerability-management practice.
 
 Phase 8.5 — Linux Mint Cinnamon Migration remains blocked in parallel pending the Cerberus hardware build; it does not gate independent Phase 10 work.
 
@@ -139,7 +139,7 @@ Atlas v1 completed its September 7, 2026 unattended-operation resilience milesto
 
 - Pursuing entry-level cybersecurity / SOC-oriented roles as my near-term target
 - Deliberately building toward security engineering, cloud/cloud security engineering, and AI engineering & automation through hands-on, production-style projects — direction, not a current title
-- Building COC Phase 10 Identity Services with Windows Server 2025 Active Directory, privilege separation, Kerberos attack-and-defense practice and later Wazuh/Sysmon detection validation
+- Building COC Phase 10 Identity Services with a validated Windows Server 2025/Windows 11 pre-attack baseline, privilege separation, delegated administration, advanced auditing, and the controlled attack/detection chapter next
 - Operating the completed Phase 9 Nextcloud platform without reopening accepted scope
 - Keeping completed Atlas infrastructure operational through simple, reusable recovery controls
 - Progressing a booked AWS certification path: Cloud Practitioner (Oct 24), Solutions Architect – Associate (Nov 28), Security – Specialty (Dec 19, 2026)
