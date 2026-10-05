@@ -108,7 +108,6 @@ These repositories are the curated entry points to my current portfolio.
 
 | Project | Focus |
 |---|---|
-| [Project Ares](https://github.com/scott-renny/project_ares) | Isolated adversary simulation and detection validation — design & planning stage |
 | [Project Apollo](https://github.com/scott-renny/project-apollo) | Samsung mobile-device security hardening and validation |
 | [Project Atlas](https://github.com/scott-renny/project-atlas) | Operational Ubuntu infrastructure; completed hardware restoration, unattended power/reboot recovery, and owner-confirmed external SSH/remote-development acceptance |
 | [Pi-hole DNS Infrastructure](https://github.com/scott-renny/pihole-dns-infrastructure) | DNS filtering, policy enforcement, and resilient name resolution |
