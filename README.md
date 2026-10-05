@@ -101,6 +101,7 @@ These repositories are the curated entry points to my current portfolio.
 | [Project Hermes](https://github.com/scott-renny/project-hermes) | Stable v1.0.1 release — repeatable Windows provisioning, validation, backup, restoration, and maintenance, validated by 381 automated tests | PowerShell · Pester · Windows Security |
 | [Cloud Engineering Portfolio](https://github.com/scott-renny/cloud-engineering-portfolio) | Completed AWS starter series and Family IT Help Desk v0.2 authenticated ticket management | AWS · Cognito · Lambda · DynamoDB · SNS |
 | [Project Cerberus](https://github.com/scott-renny/project-cerberus-build) | Linux Mint Cinnamon engineering workstation and primary COC control-node build | Linux Mint · Cinnamon · AppArmor · UFW |
+| [Project Ares](https://github.com/scott-renny/project_ares) | On-demand isolated virtual cyber range hosted on Cerberus for controlled attack simulation and detection validation | Virtualization · Kali · Active Directory · Wazuh |
 | [Project Daedalus](https://github.com/scott-renny/project-daedalus) | Self-hosted automation and intelligence workflows with explicit governance | n8n · APIs · JSON · Automation |
 | [Security+ Trainer](https://github.com/scott-renny/secplus-trainer) | Browser-based study tools, exercises, and mock examinations | HTML · CSS · JavaScript · Security+ |
 
