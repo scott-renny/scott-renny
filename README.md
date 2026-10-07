@@ -95,6 +95,16 @@ One of my strongest individual production-style engineering projects: a producti
 
 ---
 
+## Project Hestia
+
+A self-hosted media platform built around Docker Compose and Jellyfin, integrating requests, library automation, quality policy, subtitles, trailers, and recommendation infrastructure. The public repository documents the working architecture, deployment, security boundaries, and day-to-day operations while keeping secrets and runtime state private.
+
+**v1.0 released · repository validation passing in Linux CI.** Backup and restore are outside the current Hestia scope.
+
+[Explore Hestia →](https://github.com/scott-renny/project-hestia) · [View the v1.0 release →](https://github.com/scott-renny/project-hestia/releases/tag/v1.0.0) · [Read my build journal →](https://scott-renny.github.io/journal/building-project-hestia.html)
+
+---
+
 ## Featured repositories
 
 These repositories are the curated entry points to my current portfolio.
