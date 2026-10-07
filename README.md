@@ -16,6 +16,12 @@
   <a href="https://www.linkedin.com/in/scottrenny"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
 </p>
 
+<p align="center">
+  <a href="https://scott-renny.github.io/"><strong>Portfolio</strong></a> ·
+  <a href="https://scott-renny.github.io/journal/"><strong>Engineering Journal</strong></a> ·
+  <a href="https://github.com/scott-renny?tab=repositories"><strong>Repositories</strong></a>
+</p>
+
 ---
 
 ## About me
@@ -100,10 +106,13 @@ These repositories are the curated entry points to my current portfolio.
 | [NET-WATCH](https://github.com/scott-renny/netwatch) | Complete, operational, maintained network visibility and profile-based DNS access-control platform | Python · Flask · Pi-hole · Nmap · Wazuh |
 | [Project Hermes](https://github.com/scott-renny/project-hermes) | Stable v1.0.1 release — repeatable Windows provisioning, validation, backup, restoration, and maintenance, validated by 381 automated tests | PowerShell · Pester · Windows Security |
 | [Cloud Engineering Portfolio](https://github.com/scott-renny/cloud-engineering-portfolio) | Completed AWS starter series and Family IT Help Desk v0.2 authenticated ticket management | AWS · Cognito · Lambda · DynamoDB · SNS |
+| [Project Hestia](https://github.com/scott-renny/project-hestia) | Released v1.0 self-hosted media platform: requests, library automation, selected quality policy, enrichment and playback; sanitized configuration and passing Linux validation CI | Linux · Docker Compose · Jellyfin · REST APIs |
 | [Project Cerberus](https://github.com/scott-renny/project-cerberus-build) | Linux Mint Cinnamon engineering workstation and primary COC control-node build | Linux Mint · Cinnamon · AppArmor · UFW |
 | [Project Ares](https://github.com/scott-renny/project_ares) | On-demand isolated virtual cyber range hosted on Cerberus for controlled attack simulation and detection validation | Virtualization · Kali · Active Directory · Wazuh |
 | [Project Daedalus](https://github.com/scott-renny/project-daedalus) | Self-hosted automation and intelligence workflows with explicit governance | n8n · APIs · JSON · Automation |
 | [Security+ Trainer](https://github.com/scott-renny/secplus-trainer) | Browser-based study tools, exercises, and mock examinations | HTML · CSS · JavaScript · Security+ |
+
+**Latest project journal:** [Building Project Hestia into a Platform I Can Explain](https://scott-renny.github.io/journal/building-project-hestia.html)
 
 ### Additional engineering work
 
@@ -167,7 +176,7 @@ I welcome conversations with SOC analysts, cybersecurity professionals, infrastr
 <p>
   <a href="https://www.linkedin.com/in/scottrenny"><strong>Connect with me on LinkedIn</strong></a>
   ·
-  <a href="https://scott-renny.github.io"><strong>Read my engineering journal</strong></a>
+  <a href="https://scott-renny.github.io/journal/"><strong>Read my engineering journal</strong></a>
   ·
   <a href="https://github.com/scott-renny?tab=repositories"><strong>Explore all repositories</strong></a>
 </p>
