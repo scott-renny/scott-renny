@@ -22,6 +22,11 @@
   <a href="https://github.com/scott-renny?tab=repositories"><strong>Repositories</strong></a>
 </p>
 
+<p align="center">
+  <strong>Open to entry-level cybersecurity, SOC and security-analyst roles.</strong><br>
+  Start with the <a href="https://github.com/scott-renny/cyber-operations-center-engineering-program">Cyber Operations Center program</a>, the <a href="https://github.com/scott-renny/ai-job-search-automation-platform">AI Job Search platform</a>, or my <a href="https://scott-renny.github.io/resume/">resume</a>.
+</p>
+
 ---
 
 ## About me
