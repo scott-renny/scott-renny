@@ -1,0 +1,54 @@
+name: Commit attribution
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pull-requests: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check commit attribution trailers
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: python
+        run: |
+          import json, os, re, urllib.request
+          pattern = re.compile(r"^co-authored-by:\s*.*(?:\bclaude\b|noreply@anthropic\.com)", re.I | re.M)
+          with open(os.environ["GITHUB_EVENT_PATH"], encoding="utf-8") as f:
+              event = json.load(f)
+          api = os.environ["GITHUB_API_URL"]
+          repo = os.environ["GITHUB_REPOSITORY"]
+          kind = os.environ["GITHUB_EVENT_NAME"]
+          if kind == "pull_request":
+              endpoint = f"/repos/{repo}/pulls/{event['number']}/commits"
+          elif kind == "push" and event.get("before", "").strip("0"):
+              endpoint = f"/repos/{repo}/compare/{event['before']}...{event['after']}"
+          else:
+              endpoint = f"/repos/{repo}/commits"
+          count = 0
+          bad = []
+          for page in range(1, 1001):
+              request = urllib.request.Request(
+                  f"{api}{endpoint}?per_page=100&page={page}",
+                  headers={"Authorization": "Bearer " + os.environ["GH_TOKEN"],
+                           "Accept": "application/vnd.github+json",
+                           "User-Agent": "commit-attribution-check"})
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  data = json.load(response)
+              commits = data["commits"] if isinstance(data, dict) else data
+              for commit in commits:
+                  count += 1
+                  if pattern.search(commit["commit"]["message"]):
+                      bad.append(commit["sha"][:12])
+              if len(commits) < 100:
+                  break
+          else:
+              raise SystemExit("Commit pagination limit exceeded; check incomplete.")
+          if bad:
+              raise SystemExit("Unwanted AI co-author trailer in commits: " + ", ".join(bad))
+          print(f"Checked {count} commit messages; no unwanted Claude co-author trailers.")
