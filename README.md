@@ -118,6 +118,7 @@ These repositories are the curated entry points to my current portfolio.
 |---|---|---|
 | [Cyber Operations Center Engineering Program](https://github.com/scott-renny/cyber-operations-center-engineering-program) | Phased security-operations program spanning infrastructure, endpoints, telemetry, recovery, identity and governance | Wazuh · Active Directory · Zeek · Docker · Linux · Windows |
 | [AI Job Search Automation Platform](https://github.com/scott-renny/ai-job-search-automation-platform) | Production-style AI automation with deterministic safety gates, grounded generation, reviewer critique, and human-controlled submission | Python · Claude/Groq · Playwright · systemd |
+| [COC USB #1 Technician Toolkit](https://github.com/scott-renny/coc-usb-technician-toolkit) | Project-authored Windows diagnostics, guided sessions, safe report cleanup, complete offline playbook and verified rollback; physical acceptance continues | PowerShell · Windows · Ventoy · UCU |
 | [NET-WATCH](https://github.com/scott-renny/netwatch) | Complete, operational, maintained network visibility and profile-based DNS access-control platform | Python · Flask · Pi-hole · Nmap · Wazuh |
 | [Project Hermes](https://github.com/scott-renny/project-hermes) | Stable v1.0.1 release — repeatable Windows provisioning, validation, backup, restoration, and maintenance, validated by 381 automated tests | PowerShell · Pester · Windows Security |
 | [Cloud Engineering Portfolio](https://github.com/scott-renny/cloud-engineering-portfolio) | Completed AWS starter series and Family IT Help Desk v0.2 authenticated ticket management | AWS · Cognito · Lambda · DynamoDB · SNS |
@@ -127,7 +128,7 @@ These repositories are the curated entry points to my current portfolio.
 | [Project Daedalus](https://github.com/scott-renny/project-daedalus) | Self-hosted automation and intelligence workflows with explicit governance | n8n · APIs · JSON · Automation |
 | [Security+ Trainer](https://github.com/scott-renny/secplus-trainer) | Browser-based study tools, exercises, and mock examinations | HTML · CSS · JavaScript · Security+ |
 
-**Latest project journal:** [Building Project Hestia into a Platform I Can Explain](https://scott-renny.github.io/journal/building-project-hestia.html)
+**Latest project journal:** [Building a USB Technician Toolkit I Can Trust](https://scott-renny.github.io/journal/building-a-safe-usb-technician-toolkit.html)
 
 ### Additional engineering work
 
