@@ -1,3 +1,35 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/darkstar/header-dark.svg">
+  <img alt="DARKSTAR — Explore, Build, Protect, Advance" src="assets/darkstar/header-light.svg" width="100%">
+</picture>
+
+# Scott Renny
+
+I build, secure and document systems in my home lab. I'm working toward an entry-level cybersecurity or SOC role.
+
+**[CompTIA Security+](https://www.credly.com/badges/dfc57987-6f0b-40ae-bab2-633f09c71a9a/public_url)** · **[AWS Certified AI Practitioner](https://www.credly.com/badges/67b9e833-ce32-47a8-81c6-2be08f7895dc/public_url)**
+
+[Portfolio](https://scott-renny.github.io/) · [Engineering journal](https://scott-renny.github.io/journal/) · [Resume](https://scott-renny.github.io/resume/) · [LinkedIn](https://www.linkedin.com/in/scottrenny)
+
+## Selected work
+
+### [Cyber Operations Center](https://github.com/scott-renny/cyber-operations-center-engineering-program)
+
+Infrastructure, monitoring, recovery and identity engineering, with recorded validation and open work clearly separated. Phase 10 Identity Services is in progress; controlled attack and detection work follows the validated pre-attack baseline.
+
+### [AI Job Search Automation Platform](https://github.com/scott-renny/ai-job-search-automation-platform)
+
+A sanitized public showcase of the private pipeline, its deterministic safety gates, grounded document generation and engineering decisions. The production source and application records remain private.
+
+### [Project Hermes](https://github.com/scott-renny/project-hermes)
+
+PowerShell workstation lifecycle automation with provisioning, validation, backup and recovery. The repository records the stable v1.0.1 release and its validation evidence.
+
+[Explore all repositories](https://github.com/scott-renny?tab=repositories)
+
+<details>
+<summary>Engineering background, project records and technical toolkit</summary>
+
 <h1 align="center">Scott Renny</h1>
 
 <p align="center">
@@ -203,3 +235,6 @@ I welcome conversations with SOC analysts, cybersecurity professionals, infrastr
 <p align="center">
   <strong>Build deliberately. Validate continuously. Document everything.</strong>
 </p>
+
+
+</details>
